@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Edit Profile Pekerja</title>
+</head>
+<body>
+    <div class="background-part">
+
+    </div>
+    <header>
+        <div class="header-outer-container">
+            <div class="header-outer-content">
+                <div class="peworld-blue-container">
+                    <img class="peworld-blue" src="peworldBlue.svg" alt="peworldBlue">
+                </div>
+                <nav class="header-outer-content-right-part">
+                    <img class="bell-logo" src="bell-logo.svg" alt="bell-logo">
+                    <img class="mail-logo" src="mail-logo.svg" alt="mail-logo">
+                    <img class="user-logo" src="user-logo.png" alt="user-logo">
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="bio-outer-container">
+                <div class="bio-container">
+                    <img class="louis-img" src="louis.png" alt="louis">
+                    <div class="info-person">
+                        <div class="edit-container">
+                            <img src="edit-logo.svg" alt="edit-logo">
+                            <p>Edit</p>
+                        </div>
+                        <p class="name">Louis Tomlinson</p>
+                        <p class="occupation">Web Developer</p>
+                        <div class="location-container">
+                            <img class="map-pin" src="map-pin.svg" alt="map-pin">
+                            <p class="location">Purwokerto, Jawa Tengah</p>
+                        </div>
+                        <p class="work-condition">Freelance</p>
+                    </div>
+                </div>
+
+                <button class="save-button"  type="submit">Simpan</button>
+                <button class="cancel-button" type="button">Batal</button>
+            </div>
+
+            <div class="personal-exp-container">
+                <div class="personal-exp-content-container">
+                    <div class="title-personal-exp">
+                        <div class="personal-data"><p class="personal-data-text">Data diri</p></div>
+                    </div>
+                    <div class="employee-data">
+                        <label for="employee-name">Nama lengkap<input type="text" name="employee-name" id="employee-name" placeholder="Masukan nama lengkap"></label>
+                        <label for="employee-field">Job desk<input type="text" name="employee-field" id="employee-field" placeholder="Masukan job desk"></label>
+                        <label for="employee-city">Domisili<input type="text" name="employee-city" id="employee-city" placeholder="Masukan domisili"></label>
+                        <label for="employee-workplace">Tempat kerja<input type="text" name="employee-workplace" id="employee-workplace" placeholder="Masukan tempat kerja"></label>
+                        <label for="employee-desc">Deskripsi singkat<input type="text" name="employee-desc" id="employee-desc" placeholder="Tuliskan deskripsi singkat"></label>
+                    </div>
+                </div>
+
+                <div class="personal-exp-content-container">
+                    <div class="title-personal-exp">
+                        <div class="personal-data"><p class="personal-data-text">Skill</p></div>
+                    </div>
+                    <div class="employee-data">
+                        <div class="employee-skill-container">
+                            <label for="employee-skill"><input type="text" name="employee-skill" id="employee-skill" placeholder="Java"></label>
+                            <label for="save-skill"><button class="save-skill" type="submit">Simpan</button></label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="personal-exp-content-container">
+                    <div class="title-personal-exp">
+                        <div class="personal-data"><p class="personal-data-text">Pengalaman Kerja</p></div>
+                    </div>
+                    <div class="employee-data">
+                        <label for="employee-position">Posisi<input type="text" name="employee-position" id="employee-position" placeholder="web developer"></label>
+                        <div class="company-date-container">
+                            <label for="employee-company-name">Nama perusahaan<input type="text" name="employee-company-name" id="employee-company-name" placeholder="PT Harus bisa"></label>
+                            <label for="employee-date">Bulan/tahun<input type="text" name="employee-date" id="employee-date" placeholder="Januari 2018"></label>
+                        </div>
+                        <label for="employee-job-desc">Deskripsi singkat<input type="text" name="employee-job-desc" id="employee-job-desc" placeholder="Deskripsikan pekerjaan anda"></label>
+                        <div class="divider-employee"></div>
+                        <button class="work-exp-button" type="submit">Tambah pengalaman kerja</button>
+                    </div>
+                </div>
+
+                <div class="personal-exp-content-container">
+                    <div class="title-personal-exp">
+                        <div class="personal-data"><p class="personal-data-text">Portofolio</p></div>
+                    </div>
+                    <div class="employee-data">
+                        <label for="employee-app-name">Nama aplikasi<input type="text" name="employee-app-name" id="employee-app-name" placeholder="Masukan nama aplikasi"></label>
+                        <label for="employee-repo">Link repository<input type="text" name="employee-repo" id="employee-repo" placeholder="Masukan link repository"></label>
+                        <label for="porto-type-container">Type portofolio
+                            <div class="porto-type-container">
+                                <label id="type-porto-radio" for="app-mobweb"><input type="radio" name="type-porto" id="app-mobweb" value="mobile"><span>Aplikasi mobile</span></label>
+                                <label id="type-porto-radio" for="app-mobweb"><input type="radio" name="type-porto" id="app-mobweb" value="web"><span>Aplikasi Web</span></label>
+                            </div>
+                        </label>
+                        <label for="upload-img">Upload Gambar
+                            <div class="upload-img">
+                                <img src="upload-img.svg" alt="upload-img">
+                            </div>
+                        </label>
+                        <div class="divider-employee"></div>
+                        <button type="submit" class="button-add-porto">Tambah portofolio</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="address">
+            <img class="peworld-white" src="peworld-white.svg" alt="peworld white">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor.</p>
+            <div class="divider"></div>
+            <div class="closing">
+                <p class="copyright">2020 Pewworld. All right reserved</p>
+                <div class="contact">
+                    <ul>
+                        <li>Telepon</li>
+                        <li>Email</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

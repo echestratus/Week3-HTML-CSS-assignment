@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #F6F7F8;
+    font-family: "Open Sans", sans-serif;
+}
+main {
+    display: flex;
+}
+.image-bg-left-container {
+    width: 50%;
+    margin: 50px 0 50px auto;
+    /* background-color: aquamarine; */
+    position: relative;
+}
+.image-bg-left {
+    position: relative;
+    background-image: url(bg-image.png);
+    width: 650px;
+    height: 822px;
+    margin-left: auto;
+}
+.image-bg-left::after {
+    content: "";
+    position: absolute;
+    background-image: url(bg-overlay.svg);
+    width: 650px;
+    height: 822px;
+    top: 0;
+    left: 0;
+}
+.peworld-white {
+    position: relative;
+    z-index: 999;
+    width: 86px;
+    height: 24px;
+    margin: 44px;
+}
+.description-bg {
+    font-size: 44px;
+    font-weight: 700;
+    color: #FFF;
+    width: 456px;
+    height: 280px;
+    text-align: left;
+    vertical-align: middle;
+    position: relative;
+    z-index: 999;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.content-right-container {
+    width: 50%;
+    margin: 0 auto;
+    /* background-color: rebeccapurple; */
+    margin: auto;
+}
+.content-right {
+    width: 570px;
+    /* height: calc(822px - 100px); */
+    height: auto;
+    /* background-color: aqua; */
+    margin: 50px auto 50px 50px;
+}
+.heading {
+    font-size: 32px;
+    font-weight: 600;
+    color: #1F2A36;
+}
+.text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #46505C;
+}
+.content-right span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9EA0A5;
+}
+.label-email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 72px;
+}
+.label-password {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 52px;
+}
+.content-right input {
+    border: 1px solid #E2E5ED;
+    border-radius: 4px;
+    width: 570px;
+    height: 50px;
+    background-color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+.content-right input::placeholder {
+    color: #858D96;
+}
+.content-right input:focus {
+    outline: none;
+}
+.forgot-password {
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1F2A36;
+    margin-top: 30px;
+}
+.log-in {
+    width: 570px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    background-color: #FBB017;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFF;
+    margin-top: 20px;
+}
+.no-account {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1F2A36;
+    margin-top: 20px;
+}
+.no-account a {
+    text-decoration: none;
+    color: #FBB017;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1185px) {
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+        background-color: #F6F7F8;
+        font-family: "Open Sans", sans-serif;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* justify-content: space-evenly; */
+    }
+    .image-bg-left-container {
+        width: 100%;
+        /* margin: 50px 0 50px auto; */
+        /* margin: auto; */
+        /* background-color: aquamarine; */
+        position: relative;
+        /* padding-right: 550px; */
+    }
+    .image-bg-left {
+        position: relative;
+        background-image: url(bg-image.png);
+        background-repeat: no-repeat;
+        width: 650px;
+        /* width: 100%; */
+        height: 822px;
+        /* margin-left: auto; */
+        margin: auto;
+        
+    }
+    .image-bg-left::after {
+        content: "";
+        position: absolute;
+        background-image: url(bg-overlay.svg);
+        width: 650px;
+        height: 822px;
+        top: 0;
+        left: 0;
+    }
+    .peworld-white {
+        position: relative;
+        z-index: 999;
+        width: 86px;
+        height: 24px;
+        margin: 44px;
+    }
+    .description-bg {
+        font-size: 44px;
+        font-weight: 700;
+        color: #FFF;
+        width: 456px;
+        height: 280px;
+        text-align: left;
+        vertical-align: middle;
+        position: relative;
+        z-index: 999;
+        margin: auto;
+        margin-top: 150px;
+    }
+    
+    .content-right-container {
+        width: 100%;
+        /* margin: 0 auto; */
+        /* background-color: rebeccapurple; */
+        /* margin: auto; */
+    }
+    .content-right {
+        width: 570px;
+        /* height: calc(822px - 100px); */
+        height: auto;
+        /* background-color: aqua; */
+        /* margin: 50px auto 50px 50px; */
+        /* margin-left: 0;
+        margin-right: auto; */
+        margin: auto;
+        padding-left: 30px;
+        padding-right: 40px;
+    }
+    .heading {
+        font-size: 32px;
+        font-weight: 600;
+        color: #1F2A36;
+    }
+    .text {
+        font-size: 18px;
+        font-weight: 400;
+        color: #46505C;
+    }
+    .content-right span {
+        font-size: 12px;
+        font-weight: 400;
+        color: #9EA0A5;
+    }
+    .label-email {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 72px;
+    }
+    .label-password {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 52px;
+    }
+    .content-right input {
+        border: 1px solid #E2E5ED;
+        border-radius: 4px;
+        width: 570px;
+        height: 50px;
+        background-color: #FFF;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .content-right input::placeholder {
+        color: #858D96;
+    }
+    .content-right input:focus {
+        outline: none;
+    }
+    .forgot-password {
+        text-align: right;
+        font-size: 16px;
+        font-weight: 400;
+        color: #1F2A36;
+        margin-top: 30px;
+    }
+    .log-in {
+        width: 570px;
+        height: 50px;
+        border-radius: 4px;
+        border: none;
+        background-color: #FBB017;
+        font-weight: 700;
+        font-size: 20px;
+        color: #FFF;
+        margin-top: 20px;
+    }
+    .no-account {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        color: #1F2A36;
+        margin-top: 20px;
+    }
+    .no-account a {
+        text-decoration: none;
+        color: #FBB017;
+    }
+}

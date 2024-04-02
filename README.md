@@ -21,3 +21,17 @@ Following are the critertia for the assessments:
 - Use english as a language for class or id : (Done)
 
 - Upload/push the assignments to github using professional name : (Done)
+
+Link to Web page :
+
+- Profile Portofolio : https://profileportofoliov1.netlify.app/
+
+- Edit Profile Perusahaan : https://editprofileperusahaan.netlify.app/
+
+- Login Page : https://loginpagepeworld.netlify.app/
+
+- Edit Profile Pekerja : https://editprofilepekerja.netlify.app/
+
+- Home : https://homev1.netlify.app/
+
+- Landing Page : https://landingpagev1tailwind.netlify.app/
